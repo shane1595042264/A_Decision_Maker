@@ -17,7 +17,23 @@ var Books = [
 "Wuthering Heights",
 "Poisonwood Bible",
 "Killing a Mocking Bird",
-"Hamlet"
+"Hamlet",
+"Rapid Reading",
+"Environment: The Science Behind the Stories",
+"Outwitting the Devil",
+"YBOP",
+"Critique of Pure Reason",
+"Why Buddhism is True",
+"A Death in the Family",
+"Linear Algebra Done Right",
+"Blink",
+"Flatland",
+"The Interpretation of Dreams",
+"Wuthering Heights",
+"Principles",
+"Life 3.0",
+"War and Peace"
+
 ]
 
 var Computer_Books = [
