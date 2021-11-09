@@ -2,6 +2,10 @@ function r(max) {
     return Math.floor(Math.random() * max);
 }
 
+var AB = [
+    "A",
+    "B"
+]
 
 let AMCtime = `${1 + r(76)} min`;
 
@@ -12,5 +16,5 @@ let question = `${1+r(26)}`;
 console.log('Result of your AMC12 Decisions: ');
 
 console.log(`Time to complete one question should be: \n${AMCtime}`);
-console.log(`And use this set of test: \n${AMC12}`);
+console.log(`And use this set of test: \n${AMC12 + AB[r(2)]}`);
 console.log(`This question: \n${question}`);
