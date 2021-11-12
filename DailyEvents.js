@@ -41,7 +41,8 @@ var Computer_Books = [
     "Road to React",
     "Python Algorithms",
     "HTML CSS QuickStart Guide",
-    "Advanced Algorithms and Data Structures in Action"
+    "Advanced Algorithms and Data Structures in Action",
+    "Machine Learning for Algorithm and trading"
 ]
 
 var Exercises = [
