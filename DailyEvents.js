@@ -3,13 +3,14 @@ function r(max) {
 };
 
 
+
 var Courses = [    
 "Psychology",
 "Environmental Science",
 "English Literature",
 "Spanish",
 "Math",
-"CS",
+"CS Course",
 ]
 
 var Books = [
