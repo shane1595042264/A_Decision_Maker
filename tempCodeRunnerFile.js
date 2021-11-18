@@ -1,11 +1,3 @@
-let bind = r(2);
+let min = r(120) + 1;
 
-if(bind == 0){
-    console.log('Binding');
-}
-
-else{
-
-    console.log('Non-Binding');
- 
-}
+console.log(`${Exercises[r(Exercises.length)]} ${min}`);
