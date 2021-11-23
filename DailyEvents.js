@@ -54,6 +54,7 @@ var Exercises = [
     "Basketball"
 ]
 
+let minute = 1 + r(120) + " min ";
 
 let bind = r(2);
 
@@ -97,6 +98,6 @@ if(num == 0){
     }
 }
 else{
-    console.log(`${Exercises[r(Exercises.length)]}`);
+    console.log(`${minute + Exercises[r(Exercises.length)]}`);
 
 }
