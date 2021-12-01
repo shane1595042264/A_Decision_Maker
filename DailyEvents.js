@@ -13,6 +13,8 @@ var Courses = [
 "CS Course",
 ]
 
+
+
 var Books = [
     "The Bean Trees",
     "Fahrenheit 451",
@@ -56,7 +58,8 @@ var Exercises = [
 
 let minute = 1 + r(120) + " min ";
 
-let bind = r(2);
+let workminute = 1 + r(300);
+let bind = r(3);
 
 if(bind == 0){
     console.log('Binding');
@@ -81,7 +84,7 @@ if(num == 0){
         else{
             let c = r(2);
             if(c == 0){
-                console.log('AMC12');
+                console.log('Competition');
             }
             else{console.log('College Application');}
         }
@@ -97,7 +100,11 @@ if(num == 0){
 
     }
 }
-else{
+else if(bind == 1){
     console.log(`${minute + Exercises[r(Exercises.length)]}`);
 
+}
+
+else{
+    console.log(`${workminute} work`);
 }

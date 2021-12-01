@@ -13,9 +13,7 @@ let course = courses[r(courses.length)];
 let psychNum = 1 + r(9);
 let psychChapter = 0;
 let pquestionNum = 0;
-var psychBooks = [
 
-]
 
 switch(psychNum){
     case 1:
@@ -80,15 +78,15 @@ break;
         equestionNum = 1+r(20);
 break;
     case 5:
-        esChapter = 3+r(9);
-        equestionNum = 1+r(17);
+        esChapter = 3+r(8);
+        equestionNum = 4+r(7);
 break;
     case 6:
         esChapter = 1+r(9);
         equestionNum = 1+r(13);
         break;
     case 7:
-        esChapter = 1+r(3);
+        esChapter = 1+r(2);
         equestionNum = 1+r(100);
         break;
 }

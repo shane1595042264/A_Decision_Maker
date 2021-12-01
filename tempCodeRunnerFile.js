@@ -1,3 +1,3 @@
-function r(max) {
-    return Math.floor(Math.random() * max);
+else{
+    console.log(`${workminute} work`);
 }

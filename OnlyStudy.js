@@ -53,14 +53,14 @@ var Exercises = [
     "Basketball"
 ]
 
-
+let workminute = 1 + r(300);
 let bind = r(2);
 
 if(bind == 0){
     console.log('Binding');
 }
 
-else{
+else if(bind == 1){
 
     console.log('Non-Binding');
  
@@ -83,12 +83,25 @@ else{
         }
     }
     else{
-        let d = r(2);
+        let d = r(3);
         if(d == 0){
             console.log(`Read ${Books[r(Books.length)]}`);
+            let min = r(120) + 1;
+
+            console.log(`${min} min`);
+        }
+        else if(d == 1){
+            console.log(`Read ${Computer_Books[r(Computer_Books.length)]}`);
+            let min = r(120) + 1;
+
+            console.log(`${min} min`);
         }
         else{
-            console.log(`Read ${Computer_Books[r(Computer_Books.length)]}`);
+            console.log(`${workminute} min work`);
         }
 
     }
+
+
+
+

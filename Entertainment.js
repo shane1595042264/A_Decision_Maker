@@ -6,14 +6,20 @@ function r(max) {
 
 
 var events = [
-    "Videos",
     "LOL",
     "Minecraft",
     "Maple Story",
     "Hearthstone",
     "Fallout4",
-    "Anime",
     "Borderlands3",
+    "BF 5",
+    "anime",
+    "Video"
 ]
 
 console.log(`${events[r(events.length)]}`);
+
+
+let min = r(120) + 1;
+
+console.log(` ${min} min`);

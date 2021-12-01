@@ -30,14 +30,16 @@ console.log(`${competitionSelect}`);
 console.log(`${AMCtime}`);
 console.log(`${AMC12 + AB[r(2)]}`);
 console.log(`${question}`);
+    break;
     case "USABO":
         let USABOtime = `${1 + r(50)} min`;
         let USABOquestion = `${1+r(35)}`;
-        let USABO = `${2003 + r(16)}`;
+        let USABO = `${2004 + r(16)}`;
         console.log(`${competitionSelect}`);
         console.log(`${USABOtime}`);
         console.log(`${USABO + finals[r(2)]}`);
         console.log(`${USABOquestion}`);
+        break;
 
 }
 
