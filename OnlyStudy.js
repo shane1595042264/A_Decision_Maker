@@ -71,15 +71,24 @@ else if(bind == 1){
     if(a==0){
         let b = r(2);
         if(b == 0){
-            console.log(`${Courses[r(Courses.length)]}`);
+            console.log(`${Courses[r(Courses.length)]} coursework`);
+            let min = r(120) + 1;
+
+            console.log(`${min} min`);
 
         }
         else{
             let c = r(2);
             if(c == 0){
-                console.log('AMC12');
+                console.log('competition');
+                let min = r(120) + 1;
+
+                console.log(`${min} min`);
             }
-            else{console.log('College Application');}
+            else{console.log('College Application');} 
+              let min = r(120) + 1;
+
+            console.log(`${min} min`);
         }
     }
     else{
@@ -96,6 +105,8 @@ else if(bind == 1){
 
             console.log(`${min} min`);
         }
+
+
         else{
             console.log(`${workminute} min work`);
         }
@@ -103,5 +114,5 @@ else if(bind == 1){
     }
 
 
-
+ 
 

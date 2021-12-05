@@ -15,7 +15,7 @@ var events = [
     "BF 5",
     "anime",
     "Video"
-]
+] 
 
 console.log(`${events[r(events.length)]}`);
 

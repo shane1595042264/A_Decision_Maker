@@ -8,7 +8,8 @@ var Exercises = [
     "Hip-Hop",
     "Popping",
     "Basketball",
-    "Martial Art"
+    "Martial Art",
+    "Public speaking"
 ]
 
 let min = r(120) + 1;
