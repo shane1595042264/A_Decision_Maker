@@ -33,7 +33,7 @@ break;
         pquestionNum = 1+r(10);
 break;
     case 5:
-        psychChapter = 1+r(4);
+        psychChapter = 1+r(3);
         pquestionNum = 1+r(100);
 break;
     case 6:
@@ -49,8 +49,8 @@ break;
         pquestionNum = 1+r(500);
 break;
     case 9:
-        psychChapter = 5+r(13);
-        pquestionNum = 1+r(15);
+        psychChapter = 5+r(13);         
+        pquestionNum = 1+r(7); 
 break;
 
 
@@ -62,7 +62,7 @@ let equestionNum = 0;
 
 switch(apesNum){
     case 1:
-        esChapter = 3+r(9);
+        esChapter = 3+r(6);
         equestionNum = 1+r(10);
 break;
     case 2:
@@ -71,19 +71,19 @@ break;
 break;
     case 3:
         esChapter = 5+r(14);
-        equestionNum = 1+r(20);
+        equestionNum = 1+r(18);
 break;
     case 4:
         esChapter = 1+r(7);
         equestionNum = 1+r(20);
 break;
     case 5:
-        esChapter = 3+r(8);
-        equestionNum = 4+r(7);
+        esChapter = 4+r(7);
+        equestionNum = 4+r(6);
 break;
     case 6:
-        esChapter = 1+r(9);
-        equestionNum = 1+r(13);
+        esChapter = 4+r(7); 
+        equestionNum = 1+r(10);
         break;
     case 7:
         esChapter = 1+r(2);

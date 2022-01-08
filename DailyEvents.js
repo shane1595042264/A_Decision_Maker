@@ -36,7 +36,8 @@ var Books = [
     "Wuthering Heights",
     "Principles",
     "Life 3.0",
-    "War and Peace"
+    "War and Peace",
+    "Beginning AutoHotkey Hotstrings"
 ]
 
 var Computer_Books = [

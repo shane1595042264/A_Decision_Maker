@@ -13,27 +13,23 @@ var Courses = [
 
 var Books = [
 "The Bean Trees",
-"Fahrenheit 451",
 "Wuthering Heights",
-"Poisonwood Bible",
-"Killing a Mocking Bird",
+"How Democratic is the American Constitution",
+"Pride and Prejudice",
+"American Government",
+"Traditions and Encounters",
+"Night",
+"Outliers",
+"Great Expectations",
 "Hamlet",
-"Rapid Reading",
-"Environment: The Science Behind the Stories",
-"Outwitting the Devil",
-"YBOP",
-"Critique of Pure Reason",
-"Why Buddhism is True",
-"A Death in the Family",
-"Linear Algebra Done Right",
 "Blink",
-"Flatland",
-"The Interpretation of Dreams",
-"Wuthering Heights",
-"Principles",
-"Life 3.0",
-"War and Peace"
-
+"Shell Seekers",
+"Introduction to Electrodynamics",
+"Animal Farms",
+"Pafko At the Wall",
+"50 Great Myths of Popular Psychology",
+"Clear the confederate Way",
+"College Biology",
 ]
 
 var Computer_Books = [
@@ -42,20 +38,18 @@ var Computer_Books = [
     "Python Algorithms",
     "HTML CSS QuickStart Guide",
     "Advanced Algorithms and Data Structures in Action",
-    "Machine Learning for Algorithm and trading"
+    "Machine Learning for Algorithmic trading",
+    "Java Network Programming",
+    "Beginning Autohotkey Hotstrings",
+    "Arduino"
 ]
 
-var Exercises = [
-    "Breakdance",
-    "Locking",
-    "Hip-Hop",
-    "Popping",
-    "Basketball"
-]
+
 
 let workminute = 1 + r(300);
-let bind = r(2);
 
+let min = r(120) + 1;
+let bind = r(2);
 if(bind == 0){
     console.log('Binding');
 }
@@ -67,7 +61,7 @@ else if(bind == 1){
 }
 
 
-    let a = r(2);
+    let a = r(4);
     if(a==0){
         let b = r(2);
         if(b == 0){
@@ -85,13 +79,12 @@ else if(bind == 1){
 
                 console.log(`${min} min`);
             }
-            else{console.log('College Application');} 
+            else{console.log('Read College Biology');
               let min = r(120) + 1;
 
-            console.log(`${min} min`);
-        }
+                console.log(`${min} min`);}}
     }
-    else{
+    else if(a==1){  
         let d = r(3);
         if(d == 0){
             console.log(`Read ${Books[r(Books.length)]}`);
@@ -112,7 +105,16 @@ else if(bind == 1){
         }
 
     }
+    else if(a==2){
+        console.log('Catch up');
+        console.log('APES');
+        console.log(`${min} min`);
+    }
 
+    else if(a==3){
+        console.log('Computer Science Course');
+        console.log(`${min} min`);
+    }
 
  
 

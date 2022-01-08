@@ -1,3 +1,2 @@
-else{
-    console.log(`${workminute} work`);
-}
+
+    "Locking",

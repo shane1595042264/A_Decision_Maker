@@ -3,18 +3,13 @@ function r(max) {
 }
 
 
-
+    
 
 var events = [
-    "LOL",
-    "Minecraft",
-    "Maple Story",
+    "Video",
     "Hearthstone",
-    "Fallout4",
-    "Borderlands3",
-    "BF 5",
-    "anime",
-    "Video"
+    "Onmyoji",
+    "lol braum"
 ] 
 
 console.log(`${events[r(events.length)]}`);
