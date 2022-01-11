@@ -25,7 +25,6 @@ var Books = [
 "Blink",
 "Shell Seekers",
 "Introduction to Electrodynamics",
-"Animal Farms",
 "Pafko At the Wall",
 "50 Great Myths of Popular Psychology",
 "Clear the confederate Way",
@@ -41,7 +40,8 @@ var Computer_Books = [
     "Machine Learning for Algorithmic trading",
     "Java Network Programming",
     "Beginning Autohotkey Hotstrings",
-    "Arduino"
+    "Arduino",
+    "Wordpress missing manual"
 ]
 
 

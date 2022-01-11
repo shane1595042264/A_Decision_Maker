@@ -13,7 +13,7 @@ var Exercises = [
     "Memorization",
     "Nofap",
     "Vocabulary",
-    "Cantoneses",
+    "Cantoneses",   
     "Spanish",
     "German",
     "Latin",
