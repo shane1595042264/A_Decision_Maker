@@ -12,10 +12,9 @@ var AB = [
 ]
 
 var finals = [
-    "Open",
-    "Semifinal"
+    "Open"
 ]
-let competitionSelect = competition[r(1)];
+let competitionSelect = competition[r(competition.length)];
 switch(competitionSelect){
     case "AMC":
     let AMCtime = `${1 + r(75)} min`;
@@ -34,7 +33,7 @@ console.log(`${question}`);
         let USABOquestion = `${1+r(35)}`;
         let USABO = `${2004 + r(15)}`;
         console.log(`${competitionSelect}`);
-        console.log(`${USABO + finals[r(2)]}`);
+        console.log(`${USABO + finals[r(finals.length)]}`);
         console.log(`${USABOquestion}`);
         break;
 
