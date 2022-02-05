@@ -16,7 +16,7 @@ var finals = [
 ]
 let competitionSelect = competition[r(competition.length)];
 switch(competitionSelect){
-    case "AMC":
+    case "AMC": 
     let AMCtime = `${1 + r(75)} min`;
 
 let AMC12 = `${2000+r(22)}`;

@@ -40,7 +40,6 @@ var Computer_Books = [
     "Machine Learning for Algorithmic trading",
     "Java Network Programming",
     "Beginning Autohotkey Hotstrings",
-    "Arduino",
     "Wordpress missing manual"
 ]
 
@@ -106,8 +105,7 @@ else if(bind == 1){
 
     }
     else if(a==2){
-        console.log('Catch up');
-        console.log('APES');
+        console.log('catch up APES');
         console.log(`${min} min`);
     }
 

@@ -12,14 +12,8 @@ var Exercises = [
     "Speed Reading",
     "Memorization",
     "Nofap",
-    "Vocabulary",
-    "Cantoneses",   
-    "Spanish",
-    "German",
-    "Latin",
-    "Japanese",
-    "Russian",
-    "Knot-practicing",
+    "Vocabulary",   
+    "Duolingo Spanish",
     "Guitar",
     "Code academy: Javascript"
 ]

@@ -9,7 +9,11 @@ var events = [
     "Video",
     "Hearthstone",
     "Onmyoji",
-    "lol braum"
+    "lol braum",
+    "BF V",
+    "BF 1", 
+    "Minecraft",
+    "Most wanted"
 ] 
 
 console.log(`${events[r(events.length)]}`);
