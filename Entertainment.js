@@ -9,11 +9,13 @@ var events = [
     "Video",
     "Hearthstone",
     "Onmyoji",
-    "lol braum",
+    "lol braum \ndouvleplus \nmark321654",
     "BF V",
     "BF 1", 
     "Minecraft",
-    "Most wanted"
+    "lol veigar \nJungler540 \nMark321654",
+    "Karthus \nTopDouvleplus \nMark321654.",
+    "Ezreal \nADC540 \nMark321654."
 ] 
 
 console.log(`${events[r(events.length)]}`);

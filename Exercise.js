@@ -2,6 +2,8 @@ function r(max) {
     return Math.floor(Math.random() * max);
 }
 
+let min = r(120) + 1;
+let mediMin = r(min) + 1;
 var Exercises = [
     "Breakdance",
     "Locking",
@@ -22,6 +24,7 @@ var Exercises = [
 let bind = r(2);
 if(bind == 0){
     console.log('Binding');
+
 }
 
 else if(bind == 1){
@@ -30,6 +33,7 @@ else if(bind == 1){
  
 }
 
-let min = r(120) + 1;
+
 
 console.log(`${Exercises[r(Exercises.length)]} ${min}`);
+console.log(`meditaition: ${mediMin}`);

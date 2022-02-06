@@ -51,6 +51,7 @@ let min = r(120) + 1;
 let bind = r(2);
 if(bind == 0){
     console.log('Binding');
+
 }
 
 else if(bind == 1){
@@ -116,3 +117,5 @@ else if(bind == 1){
 
  
 
+    let mediMin = r(min) + 1;
+    console.log('Meditation ' + mediMin);
