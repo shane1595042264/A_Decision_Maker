@@ -17,12 +17,9 @@ var Books = [
 "How Democratic is the American Constitution",
 "Pride and Prejudice",
 "American Government",
-"Traditions and Encounters",
 "Night", 
 "Outliers",
-"Great Expectations",
 "Hamlet",
-"Blink",
 "Shell Seekers",
 "Introduction to Electrodynamics",
 "Pafko At the Wall",
@@ -37,9 +34,7 @@ var Computer_Books = [
     "Python Algorithms",
     "HTML CSS QuickStart Guide",
     "Advanced Algorithms and Data Structures in Action",
-    "Machine Learning for Algorithmic trading",
     "Java Network Programming",
-    "Beginning Autohotkey Hotstrings",
     "Wordpress missing manual"
 ]
 
@@ -66,7 +61,6 @@ else if(bind == 1){
         let b = r(2);
         if(b == 0){
             console.log(`${Courses[r(Courses.length)]} coursework`);
-            let min = r(120) + 1;
 
             console.log(`${min} min`);
 
@@ -75,12 +69,10 @@ else if(bind == 1){
             let c = r(2);
             if(c == 0){
                 console.log('competition');
-                let min = r(120) + 1;
 
                 console.log(`${min} min`);
             }
             else{console.log('Read College Biology');
-              let min = r(120) + 1;
 
                 console.log(`${min} min`);}}
     }
@@ -88,13 +80,12 @@ else if(bind == 1){
         let d = r(3);
         if(d == 0){
             console.log(`Read ${Books[r(Books.length)]}`);
-            let min = r(120) + 1;
+
 
             console.log(`${min} min`);
         }
         else if(d == 1){
             console.log(`Read ${Computer_Books[r(Computer_Books.length)]}`);
-            let min = r(120) + 1;
 
             console.log(`${min} min`);
         }
@@ -117,5 +108,5 @@ else if(bind == 1){
 
  
 
-    let mediMin = r(min) + 1;
+    let mediMin = r(min);
     console.log('Meditation ' + mediMin);

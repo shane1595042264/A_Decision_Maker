@@ -3,7 +3,7 @@ function r(max) {
 }
 
 let min = r(120) + 1;
-let mediMin = r(min) + 1;
+let mediMin = r(min-1) + 1;
 var Exercises = [
     "Breakdance",
     "Locking",

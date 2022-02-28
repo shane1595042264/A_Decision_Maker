@@ -2,23 +2,13 @@ function r(max) {
     return Math.floor(Math.random() * max);
 }
 
-
-    
-
-var events = [
-    "Video",
-    "Hearthstone",
-    "Onmyoji",
+var lol = [
     "BF V",
     "BF 1", 
-    "Minecraft",
+    "Hearthstone",
     "ADC540",
     "TopDouvleplus",
     "douvleplus",
     "Jungler540"
-] 
-
-console.log(`${events[r(events.length)]}`);
-
-
-
+]
+console.log(`${lol[r(lol.length)]}`);
