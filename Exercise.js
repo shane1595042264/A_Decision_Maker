@@ -13,8 +13,8 @@ var Exercises = [
     "Public speaking",
     "Speed Reading",
     "Memorization",
-    "Nofap",
-    "Vocabulary",   
+    "Scaling",
+    "Vocabulary",
     "Duolingo Spanish",
     "Guitar",
     "Code academy: Javascript"

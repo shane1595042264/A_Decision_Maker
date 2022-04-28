@@ -1,2 +1,1 @@
-
-    "Locking",
+    "ezreal",

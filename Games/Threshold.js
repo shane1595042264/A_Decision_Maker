@@ -2,13 +2,16 @@ function r(max) {
     return Math.floor(Math.random() * max);
 }
 
+var champ =[
+    // "veigar",
+    // "braum",
+    // "ezreal",
+    "karthus",
+    "Support540",
+]
+
 var lol = [
-    "BF V",
-    "BF 1", 
-    "Hearthstone",
-    "ADC540",
-    "TopDouvleplus",
-    "douvleplus",
-    "Jungler540"
+`league ${champ[r(champ.length)]}`,
+"hearthstone",    
 ]
 console.log(`${lol[r(lol.length)]}`);

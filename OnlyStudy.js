@@ -12,9 +12,7 @@ var Courses = [
 ]
 
 var Books = [
-"The Bean Trees",
 "Wuthering Heights",
-"How Democratic is the American Constitution",
 "Pride and Prejudice",
 "American Government",
 "Night", 
@@ -24,11 +22,10 @@ var Books = [
 "Introduction to Electrodynamics",
 "Pafko At the Wall",
 "50 Great Myths of Popular Psychology",
-"Clear the confederate Way",
 "College Biology",
 ]
 
-var Computer_Books = [
+var Computer_Books = [  
     "Eloquent JavaScript",
     "Road to React",
     "Python Algorithms",
@@ -72,7 +69,7 @@ else if(bind == 1){
 
                 console.log(`${min} min`);
             }
-            else{console.log('Read College Biology');
+            else{console.log("365 Days Self Discipline");
 
                 console.log(`${min} min`);}}
     }
@@ -97,7 +94,7 @@ else if(bind == 1){
 
     }
     else if(a==2){
-        console.log('catch up APES');
+        console.log('Critique of pure reason');
         console.log(`${min} min`);
     }
 
@@ -108,5 +105,5 @@ else if(bind == 1){
 
  
 
-    let mediMin = r(min);
-    console.log('Meditation ' + mediMin);
+    let mediMin = r(min)+1;
+    console.log('Meditation ' + mediMin);   
