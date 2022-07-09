@@ -1,21 +1,30 @@
 function r(max) {
     return Math.floor(Math.random() * max);
 }
-
-var Books = [
-    "Wuthering Heights",
+let Books = [
+"Wuthering Heights",
     "Pride and Prejudice",
-    "American Government",
+    "Java Network Programming",
     "Night",
     "Outliers",
     "Great Expectations",
     "Hamlet",
     "Shell Seekers",
     "Introduction to Electrodynamics",
-    "Animal Farms",
     "Pafko At the Wall",
     "50 Great Myths of Popular Psychology",
-    "College Biology"
+    "College Biology",
+    "Spanish Dictionary",
+    "Mr. Hurtado's book",
+    "Hacking: the art of exploitation",
+    "HTML CSS QuickStart Guide",
+    "A Brand New You",
+    "365 Days discipline",
+    "The Road to React",
+    "Encyclopedia of Machine Learning and Data Mining",
+    "Critique and Pure Reason"
+
     ]
 
-    console.log(`Read ${Books[r(Books.length)]}`);
+
+console.log(`Read ${Books[r(Books.length)]}`);
