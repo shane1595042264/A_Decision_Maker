@@ -16,12 +16,8 @@ let Books = [
     "College Biology",
     "Spanish Dictionary",
     "Mr. Hurtado's book",
-    "Hacking: the art of exploitation",
-    "HTML CSS QuickStart Guide",
     "A Brand New You",
     "365 Days discipline",
-    "The Road to React",
-    "Encyclopedia of Machine Learning and Data Mining",
     "Critique and Pure Reason"
 
     ]

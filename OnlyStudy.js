@@ -28,12 +28,8 @@ var Books = [
     "College Biology",
     "Spanish Dictionary",
     "Mr. Hurtado's book",
-    "Hacking: the art of exploitation",
-    "HTML CSS QuickStart Guide",
     "A Brand New You",
     "365 Days discipline",
-    "The Road to React",
-    "Encyclopedia of Machine Learning and Data Mining",
     "Critique and Pure Reason"
 ]
 
@@ -41,9 +37,9 @@ var Computer_Books = [
     "Eloquent JavaScript",
     "Road to React",
     "HTML CSS QuickStart Guide",
-    "Advanced Algorithms and Data Structures in Action",
     "Java Network Programming",
-    "Wordpress missing manual"
+    "Wordpress missing manual",
+    "Art of Hacking"
 ]
 
 
@@ -76,7 +72,7 @@ else if(bind == 1){
         else{
             let c = r(2);
             if(c == 0){
-                console.log('competition');
+                console.log('College Work');
 
                 console.log(`${min} min`);
             }

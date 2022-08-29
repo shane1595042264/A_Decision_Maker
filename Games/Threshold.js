@@ -3,11 +3,11 @@ function r(max) {
 }
 
 var champ =[
-    "veigar",
-    "braum",
-    "ezreal",
+    // "veigar",
+    // "braum",
+    // "ezreal",
     "karthus",
-    "Support540",    
+    // "Support540",    
 ]
 
 var lol = [
