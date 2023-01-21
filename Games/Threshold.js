@@ -3,15 +3,15 @@ function r(max) {
 }
 
 var champ =[
-    // "veigar",
-    // "braum",
-    // "ezreal",
-    "karthus",
+    // "JunglerJoanna",
+    // "douvleplus",
+    "ADC540",
+    // "TopDouvleplus",
     // "Support540",    
 ]
 
 var lol = [
 `league ${champ[r(champ.length)]}`,
-"hearthstone",    
+"hearthstone",   
 ]
 console.log(`${lol[r(lol.length)]}`);
