@@ -5,25 +5,18 @@ let CollegeWorks = [
     "Intro to Modern Algebra",
     "Calculus III",
     "Intro to Prob & Stat",
-    "Data Structures",
+    // "Data Structures",
     "Software Engineering",
     "Intro Oper Syst & Networking",
-    // "Intro to Cognitive Science"
+    "Intro to Cognitive Science",
+    "Data Privacy",
     ]
-let DailyTodo = [
-        "Startup",  
-        "Scaling",
-        "Volunteering(Teals, eCybermission)",
+let TODO = [
         "GRE Training",
-        "Creative Writing",
-        "Philosophy",
         "Spanish",
-        "Meditation",
         "1hourWorkout",
-        "TransferApplication",
+        "Application",
         // "Guitar1Hour",
-        "Competition1Hour",
-        "Data Privacy",
         ]
 
 
@@ -31,4 +24,4 @@ let DailyTodo = [
 
 console.log(` ${r(2)+1}`);
 console.log(` ${CollegeWorks[r(CollegeWorks.length)]}`);
-console.log(` ${DailyTodo[r(DailyTodo.length)]}`);
+console.log(` ${TODO[r(TODO.length)]}`);
