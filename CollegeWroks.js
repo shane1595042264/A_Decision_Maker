@@ -3,12 +3,7 @@ function r(max) {
 }
 let CollegeWorks = [
     "Intro to Modern Algebra",
-    "Calculus III",
-    "Intro to Prob & Stat",
     // "Data Structures",
-    "Software Engineering",
-    "Intro Oper Syst & Networking",
-    "Intro to Cognitive Science",
     "Data Privacy",
     ]
 let TODO = [
